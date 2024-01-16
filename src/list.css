@@ -1,0 +1,36 @@
+.list-root {
+    max-width: 500px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-left: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.image-name-group {
+    display: flex;
+    gap: 8px;
+}
+.list-element {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(233, 231, 231);
+    cursor: pointer;
+}
+.list-element:hover {
+    background-color: #EDEDED;
+}
+
+.list-image {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+.email-container {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 250px;
+    padding: 0px 20px;
+    font-size: 13px;
+    color: #bbbbbb;
+}

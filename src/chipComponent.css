@@ -1,0 +1,44 @@
+.chip-group-root {
+    display: flex;
+    gap: 15px;
+    height: 40px;
+    padding: 4px;
+    border-bottom: 2px solid rgb(191, 189, 189);
+}
+
+.chip-root {
+    display: flex;
+    max-width: 300px;
+    background-color: rgb(240, 239, 239);
+    border-radius: 50px;
+    
+}
+
+
+.chip-name-icon-group {
+    display: flex;
+    border-left: none;
+    font-size: 14px;
+    align-items: center;
+    gap:8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.chip-info {
+    display: flex;
+}
+
+.chip-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.close-icon {
+    font-size: 20px;
+    width: 10px;
+    cursor: pointer;
+    color: rgb(169, 167, 167);
+}
+

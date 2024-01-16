@@ -1,0 +1,22 @@
+.app {
+    display: flex;
+}
+
+.input-list-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-root {
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid rgb(191, 189, 189);
+    width: 200px;
+    height: 48px;
+    padding-left: 4px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border-bottom: 2px solid #4e9ad4;
+}
